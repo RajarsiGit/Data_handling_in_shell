@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #downloading data
-curl "https://query1.finance.yahoo.com/v7/finance/download/GOOG?period1=1557322330&period2=1588944730&interval=1d&events=history" --output GOOG.csv
+curl "https://query1.finance.yahoo.com/v7/finance/download/GOOG?period1=1557792000&period2=1589414400&interval=1d&events=history" --output GOOG.csv
 
 #scrapping off first line in csv
 flag="0"
